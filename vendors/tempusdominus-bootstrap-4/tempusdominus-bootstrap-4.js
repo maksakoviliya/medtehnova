@@ -56,7 +56,7 @@ var DateTimePicker = function ($, moment) {
       EVENT_KEY = "." + DATA_KEY,
       DATA_API_KEY = '.data-api',
       Selector = {
-    DATA_TOGGLE: "[data-bs-toggle=\"" + DATA_KEY + "\"]"
+    DATA_TOGGLE: "[data-toggle=\"" + DATA_KEY + "\"]"
   },
       ClassName = {
     INPUT: NAME + "-input"
@@ -2060,7 +2060,7 @@ var TempusDominusBootstrap4 = function ($) {
         var datepickerButton = this._element.find('.datepickerbutton');
 
         if (datepickerButton.length === 0) {
-          this.component = this._element.find('[data-bs-toggle="datetimepicker"]');
+          this.component = this._element.find('[data-toggle="datetimepicker"]');
         } else {
           this.component = datepickerButton;
         }
@@ -3435,7 +3435,7 @@ var TempusDominusBootstrap4 = function ($) {
       return;
     }
 
-    if (config._options.allowInputToggle && $originalTarget.is('input[data-bs-toggle="datetimepicker"]')) {
+    if (config._options.allowInputToggle && $originalTarget.is('input[data-toggle="datetimepicker"]')) {
       return;
     }
 

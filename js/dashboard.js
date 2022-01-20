@@ -708,6 +708,7 @@ $(function() {
     if ($("#datepicker").length) {
         $('#datepicker').datepicker({
             language: "ru",
+            maxViewMode: 0,
             templates: {
                 leftArrow: '<svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.70619 1L1.60156 5.5L5.70619 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
                 rightArrow: '<svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.47277 1L5.57739 5.5L1.47277 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
