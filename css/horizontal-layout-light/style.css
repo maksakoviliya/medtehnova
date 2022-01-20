@@ -13876,7 +13876,7 @@ fieldset:disabled .wizard > .actions a,
   flex-wrap: wrap;
   padding: 0.56rem 1.13rem;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 0.75rem;
   list-style: none;
   background-color: transparent;
 }
@@ -20554,7 +20554,7 @@ code {
   }
 }
 
-.text-gray, .card .card-subtitle {
+.text-gray {
   color: #848484;
 }
 
@@ -22226,72 +22226,51 @@ code {
 
 /* Breadcrumbs */
 .breadcrumb {
-  border: 1px solid #f6f2f2;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .breadcrumb .breadcrumb-item {
-  font-size: 1rem;
+  font-size: 12px;
 }
 
-.breadcrumb.breadcrumb-custom {
-  padding: 0 0;
-  border-color: #dbe3e6;
+.breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #A2A3B7;
+}
+
+.breadcrumb .breadcrumb-item.active {
+  color: #A2A3B7;
 }
 
 .breadcrumb.breadcrumb-custom .breadcrumb-item {
-  font-size: 1rem;
-  background: #dbe3e6;
-  padding: 0.56rem 10px;
+  font-size: 12px;
+  padding: 0;
   color: #000000;
   display: inline-block;
   vertical-align: top;
-}
-
-.breadcrumb.breadcrumb-custom .breadcrumb-item:last-child {
-  background: transparent;
+  margin-right: 1rem;
 }
 
 .breadcrumb.breadcrumb-custom .breadcrumb-item:before {
-  content: "";
+  content: "/";
 }
 
 .breadcrumb.breadcrumb-custom .breadcrumb-item a {
   position: relative;
-  color: inherit;
-  border: 1px solid #dbe3e6;
+  color: #A2A3B7;
   display: inline-block;
   vertical-align: top;
-}
-
-.breadcrumb.breadcrumb-custom .breadcrumb-item a:before, .breadcrumb.breadcrumb-custom .breadcrumb-item a:after {
-  position: absolute;
-  top: -9px;
-  width: 0;
-  height: 0;
-  content: "";
-  border-top: 21px solid transparent;
-  border-bottom: 21px solid transparent;
-}
-
-.breadcrumb.breadcrumb-custom .breadcrumb-item a:before {
-  right: -22px;
-  z-index: 3;
-  border-left-color: #dbe3e6;
-  border-left-style: solid;
-  border-left-width: 12px;
-}
-
-.breadcrumb.breadcrumb-custom .breadcrumb-item a:after {
-  border-top: 21px solid transparent;
-  border-bottom: 22px solid transparent;
-  border-left: 12px solid #ffffff;
-  top: -9px;
-  right: -23px;
 }
 
 .breadcrumb.breadcrumb-custom .breadcrumb-item span {
   display: inline-block;
   vertical-align: top;
+  color: #A2A3B7;
+}
+
+.breadcrumb.breadcrumb-custom .breadcrumb-item.active {
+  color: #A2A3B7;
 }
 
 .breadcrumb.bg-success, .swal2-modal .swal2-buttonswrapper .breadcrumb.swal2-styled.swal2-confirm, .breadcrumb.bg-dark, .breadcrumb.bg-danger, .breadcrumb.bg-warning, .breadcrumb.bg-primary, .breadcrumb.bg-info {
@@ -22656,7 +22635,7 @@ code {
 }
 
 .card .card-body {
-  padding: 1.875rem 1.875rem;
+  padding: 1.225rem 1.225rem;
 }
 
 .card .card-body + .card-body {
@@ -22676,16 +22655,19 @@ code {
 }
 
 .card .card-title {
-  color: #1c2c42;
-  margin-bottom: 1rem;
+  color: #111723;
+  margin-bottom: 0;
   text-transform: capitalize;
   font-size: 1rem;
+  font-weight: normal !important;
 }
 
 .card .card-subtitle {
+  color: #636A77;
   font-weight: 400;
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
+  margin-top: 4px;
+  margin-bottom: 0;
+  line-height: 16px;
 }
 
 .card .card-description {
