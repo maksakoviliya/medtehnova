@@ -18,6 +18,11 @@
   -ms-box-shadow: $sidebar-box-shadow;
   display: flex;
   flex-direction: column;
+  .sidebar-calendar {
+    .nav-link {
+      display: none !important;
+    }
+  }
   .nav {
     overflow: hidden;
     flex-wrap: nowrap;

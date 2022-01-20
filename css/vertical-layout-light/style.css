@@ -29098,6 +29098,10 @@ div.tagsinput span.tag a {
   flex-direction: column;
 }
 
+.sidebar .sidebar-calendar .nav-link {
+  display: none !important;
+}
+
 .sidebar .nav {
   overflow: hidden;
   flex-wrap: nowrap;
@@ -30651,6 +30655,13 @@ div.tagsinput span.tag a {
   }
   .sidebar-icon-only .sidebar {
     width: 70px;
+  }
+  .sidebar-icon-only .sidebar .sidebar-calendar .nav-link {
+    display: block !important;
+    margin-right: -8px;
+  }
+  .sidebar-icon-only .sidebar .sidebar-calendar div {
+    display: none;
   }
   .sidebar-icon-only .sidebar .nav {
     overflow: visible;

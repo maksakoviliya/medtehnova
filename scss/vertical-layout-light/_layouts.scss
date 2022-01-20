@@ -97,6 +97,16 @@
     }
     .sidebar {
       width: $sidebar-width-icon;
+
+      .sidebar-calendar {
+        .nav-link {
+          display: block !important;
+          margin-right: -8px;
+        }
+        div {
+          display: none;
+        }
+      }
       .nav {
         overflow: visible;
         &:not(.sub-menu) {
