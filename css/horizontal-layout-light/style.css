@@ -13876,7 +13876,7 @@ fieldset:disabled .wizard > .actions a,
   flex-wrap: wrap;
   padding: 0.56rem 1.13rem;
   margin-bottom: 1rem;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   list-style: none;
   background-color: transparent;
 }
@@ -19960,42 +19960,106 @@ input:focus {
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../../fonts/poppins/RPoppins-Light.eot");
-  src: url("../../fonts/poppins/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/Poppins-Light.woff2") format("woff2"), url("../../fonts/poppins/Poppins-Light.woff") format("woff"), url("../../fonts/poppins/Poppins-Light.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../../fonts/Roboto/RRoboto-Light.eot");
+  src: url("../../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Roboto/Roboto-Light.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Light.woff") format("woff"), url("../../fonts/Roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../../fonts/poppins/Poppins-Bold.eot");
-  src: url("../../fonts/poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("../../fonts/poppins/Poppins-Bold.woff") format("woff"), url("../../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../../fonts/Roboto/Roboto-Bold.eot");
+  src: url("../../fonts/Roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Bold.woff") format("woff"), url("../../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../../fonts/poppins/Poppins-Medium.eot");
-  src: url("../../fonts/poppins/Poppins-Medium?#iefix") format("embedded-opentype"), url("../../fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("../../fonts/poppins/Poppins-Medium.woff") format("woff"), url("../../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../../fonts/Roboto/Roboto-Medium.eot");
+  src: url("../../fonts/Roboto/Roboto-Medium?#iefix") format("embedded-opentype"), url("../../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Medium.woff") format("woff"), url("../../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../../fonts/poppins/Poppins-Regular.eot");
-  src: url("../../fonts/poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("../../fonts/poppins/Poppins-Regular.woff") format("woff"), url("../../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../../fonts/Roboto/Roboto-Regular.eot");
+  src: url("../../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url("../../fonts/poppins/Poppins-Black.eot");
-  src: url("../../fonts/poppins/Poppins-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/Poppins-Black.woff2") format("woff2"), url("../../fonts/poppins/RPoppins-Black.woff") format("woff"), url("../../fonts/poppins/Poppins-Black.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../../fonts/Roboto/Roboto-Black.eot");
+  src: url("../../fonts/Roboto/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("../../fonts/Roboto/RRoboto-Black.woff") format("woff"), url("../../fonts/Roboto/Roboto-Black.ttf") format("truetype");
   font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../../fonts/OpenSans/ROpenSans-Light.eot");
+  src: url("../../fonts/OpenSans/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/OpenSans/OpenSans-Light.woff2") format("woff2"), url("../../fonts/OpenSans/OpenSans-Light.woff") format("woff"), url("../../fonts/OpenSans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../../fonts/OpenSans/OpenSans-Bold.eot");
+  src: url("../../fonts/OpenSans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"), url("../../fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("../../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../../fonts/OpenSans/OpenSans-Medium.eot");
+  src: url("../../fonts/OpenSans/OpenSans-Medium?#iefix") format("embedded-opentype"), url("../../fonts/OpenSans/OpenSans-Medium.woff2") format("woff2"), url("../../fonts/OpenSans/OpenSans-Medium.woff") format("woff"), url("../../fonts/OpenSans/OpenSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../fonts/Inter/Inter-Regular.eot");
+  src: url("../../fonts/Inter/Inter-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../../fonts/Inter/Inter-Regular.woff") format("woff"), url("../../fonts/Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../fonts/Inter/RInter-Light.eot");
+  src: url("../../fonts/Inter/Inter-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Inter/Inter-Light.woff2") format("woff2"), url("../../fonts/Inter/Inter-Light.woff") format("woff"), url("../../fonts/Inter/Inter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../fonts/Inter/Inter-Bold.eot");
+  src: url("../../fonts/Inter/Inter-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../../fonts/Inter/Inter-Bold.woff") format("woff"), url("../../fonts/Inter/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../fonts/Inter/Inter-Medium.eot");
+  src: url("../../fonts/Inter/Inter-Medium?#iefix") format("embedded-opentype"), url("../../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../../fonts/Inter/Inter-Medium.woff") format("woff"), url("../../fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../../fonts/OpenSans/OpenSans-Regular.eot");
+  src: url("../../fonts/OpenSans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"), url("../../fonts/OpenSans/OpenSans-Regular.woff") format("woff"), url("../../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -20074,7 +20138,7 @@ input:focus {
 /* Typography */
 body {
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: initial;
   line-height: normal;
   -webkit-font-smoothing: antialiased;
@@ -20092,7 +20156,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 p {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   margin-bottom: .4rem;
   line-height: 1.3rem;
 }
@@ -20341,9 +20405,9 @@ pre {
 code {
   padding: 5px;
   color: #e94437;
-  font-family: "Poppins", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: 300;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 4px;
 }
 
@@ -20373,7 +20437,7 @@ code {
   -webkit-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
   font-size: 0.875rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: 400;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 6px;
@@ -20669,7 +20733,7 @@ code {
   width: 1rem;
   margin-right: .4rem;
   display: inline-block;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 100%;
 }
 
@@ -20786,7 +20850,7 @@ code {
   width: 1rem;
   margin-right: 0;
   display: inline-block;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 100%;
 }
 
@@ -20800,7 +20864,7 @@ code {
   width: 1rem;
   margin-right: 0rem;
   display: inline-block;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 3px;
 }
 
@@ -21441,7 +21505,7 @@ code {
 
 /* Bootstrap Alerts */
 .alert {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 .alert i {
@@ -22166,7 +22230,7 @@ code {
 }
 
 .breadcrumb .breadcrumb-item {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 .breadcrumb.breadcrumb-custom {
@@ -22175,7 +22239,7 @@ code {
 }
 
 .breadcrumb.breadcrumb-custom .breadcrumb-item {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   background: #dbe3e6;
   padding: 0.56rem 10px;
   color: #000000;
@@ -22762,7 +22826,7 @@ code {
   min-height: 18px;
   display: block;
   margin-left: 1.75rem;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   line-height: 1.5;
 }
 
@@ -23042,7 +23106,7 @@ code {
 
 .dropdown .dropdown-menu {
   margin-top: 0.2rem;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   box-shadow: 0px 1px 15px 1px rgba(112, 120, 137, 0.35);
   padding: 0;
   border: none;
@@ -23238,7 +23302,7 @@ select.border-dark.tt-hint:focus {
 }
 
 .form-group label {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   line-height: 1.4rem;
   vertical-align: top;
   margin-bottom: .5rem;
@@ -23301,7 +23365,7 @@ select.border-dark.tt-hint:focus {
   align-items: center;
   padding: 15px 15px;
   font-weight: 400;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 .icons-list > div i {
@@ -24057,7 +24121,7 @@ ul,
 ol,
 dl {
   padding-left: 1rem;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 ul li,
@@ -25165,7 +25229,7 @@ dl li {
 
 .table td,
 .jsgrid .jsgrid-table td {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   padding: 0.625rem;
   color: #707889;
   border-bottom: 1px solid #f6f2f2;
@@ -25986,7 +26050,7 @@ dl li {
   text-align: left;
   padding: 4px 0px;
   font-weight: 400;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 /*-------------------------------------------------------------------*/
@@ -26055,13 +26119,13 @@ dl li {
 
 .email-wrapper .mail-sidebar .menu-bar .menu-items li a {
   color: #303a40;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   text-decoration: none;
 }
 
 .email-wrapper .mail-sidebar .menu-bar .menu-items li a i {
   margin-right: 8px;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   line-height: 1.5;
 }
 
@@ -26083,7 +26147,7 @@ dl li {
 }
 
 .email-wrapper .mail-sidebar .menu-bar .online-status .chat {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   color: #25378b;
   margin-bottom: 0;
   font-weight: 600;
@@ -26161,13 +26225,13 @@ dl li {
 
 .email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-name {
   font-weight: 400;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   line-height: 1;
   color: color(black);
 }
 
 .email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-designation {
-  font-size: calc(0.813rem - 0.1rem);
+  font-size: calc(0.1rem - 0.1rem);
   margin-bottom: 0;
 }
 
@@ -26212,7 +26276,7 @@ dl li {
 }
 
 .email-wrapper .mail-list-container .mail-list .content .sender-name {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: 400;
   max-width: 95%;
 }
@@ -26339,7 +26403,7 @@ dl li {
 }
 
 .ace_editor .ace_content {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 /* Avgrund Popup */
@@ -26354,7 +26418,7 @@ dl li {
   top: 50%;
   left: 53%;
   z-index: 1000;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: 400;
   font-weight: initial;
   line-height: 1.85;
@@ -26367,7 +26431,7 @@ dl li {
 }
 
 .avgrund-popin p {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: 400;
   font-weight: initial;
 }
@@ -26603,7 +26667,7 @@ body.avgrund-active {
 
 /* CodeMirror */
 .CodeMirror {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   height: auto;
   text-align: left;
   min-height: auto;
@@ -26809,7 +26873,7 @@ body.avgrund-active {
 }
 
 .dataTables_wrapper .dataTables_info {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 @media (max-width: 576px) {
@@ -26824,7 +26888,7 @@ body.avgrund-active {
   padding: 0;
   width: 30%;
   max-width: 500px;
-  min-width: 250px;
+  min-width: 150px;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days,
@@ -26841,46 +26905,46 @@ body.avgrund-active {
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th {
   text-align: center;
   padding: 0.5rem 0;
+  font-family: "Inter", sans-serif;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.prev,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.prev {
-  color: #1c2c42;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  background: #ffffff;
+  color: #ffffff;
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+  background: transparent;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.datepicker-switch,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.datepicker-switch {
-  color: #1c2c42;
-  background: #ffffff;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  font-size: 1rem;
+  color: #ffffff;
+  background: transparent;
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+  font-size: .75rem;
   font-weight: 600;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.next,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.next {
-  color: #1c2c42;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  background: #ffffff;
+  color: #ffffff;
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+  background: transparent;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.dow,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed thead tr th.dow {
-  font-family: "Poppins", sans-serif;
-  color: #1c2c42;
-  font-size: 0.875rem;
+  color: #636A77;
+  text-transform: uppercase;
+  font-size: 0.625rem;
   font-weight: initial;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody {
   position: relative;
-  top: 13px;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td,
@@ -26890,14 +26954,38 @@ body.avgrund-active {
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day {
-  font-size: 0.9375rem;
-  padding: 0.5rem 0;
-  color: #1c2c42;
+  font-size: 0.75rem;
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day:before,
+.datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: #23af47;
+  border-radius: 100%;
+  margin: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: -2px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  display: none;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day:hover,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day:hover {
-  background: #ffffff;
+  background: transparent;
+  color: #1c2c42;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day:hover:before,
+.datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day:hover:before {
+  display: block;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day.active,
@@ -26910,58 +26998,33 @@ body.avgrund-active {
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day.active:before,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day.active:before {
-  content: "";
-  width: 28px;
-  height: 28px;
-  background: #23af47;
-  border-radius: 4px;
   display: block;
-  margin: auto;
-  vertical-align: middle;
-  position: absolute;
-  top: 6px;
-  z-index: -1;
-  left: 0;
-  right: 0;
 }
 
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day.today,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day.today {
-  color: #fff;
+  color: #23af47;
   background: transparent;
   position: relative;
   z-index: 1;
 }
 
-.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day.today:before,
-.datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day.today:before {
-  content: "";
-  width: 28px;
-  height: 28px;
-  background: #25378b;
-  border-radius: 4px;
-  box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-  -webkit-box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-  -moz-box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-  display: block;
-  margin: auto;
-  vertical-align: middle;
-  position: absolute;
-  top: 6px;
-  z-index: -1;
-  left: 0;
-  right: 0;
-}
-
 .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.old.day,
 .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.old.day {
-  color: #d9dde3;
+  color: #636A77;
+  font-weight: normal;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.new.day,
+.datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.new.day {
+  color: #636A77;
+  font-weight: normal;
 }
 
 .datepicker.datepicker-inline {
   width: 100%;
   max-width: 100%;
-  min-width: 250px;
+  min-width: 150px;
 }
 
 .datepicker.datepicker-inline thead tr th.prev {
@@ -26971,9 +27034,13 @@ body.avgrund-active {
 }
 
 .datepicker.datepicker-inline thead tr th.datepicker-switch {
-  color: #25378b;
+  color: #ffffff;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+}
+
+.datepicker.datepicker-inline thead tr th.datepicker-switch:hover {
+  background: #2c2f41;
 }
 
 .datepicker.datepicker-inline thead tr th.next {
@@ -27551,7 +27618,7 @@ body.avgrund-active {
   border-radius: 4px;
   border: none;
   line-height: 1;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   padding: 13px 12px;
   bottom: 190%;
 }
@@ -27939,7 +28006,7 @@ body.avgrund-active {
 .br-theme-bars-1to10 .br-widget .br-current-rating,
 .br-theme-bars-horizontal .br-widget .br-current-rating {
   color: #1c2c42;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: initial;
 }
 
@@ -28089,7 +28156,7 @@ body.avgrund-active {
 }
 
 .swal2-modal .swal2-content {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: 600;
   color: #1c2c42;
   font-weight: initial;
@@ -28472,7 +28539,7 @@ div.tagsinput span.tag a {
 }
 
 .wizard > .steps .number {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 .wizard > .steps > ul > li {
@@ -28496,7 +28563,7 @@ div.tagsinput span.tag a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   font-weight: 600;
 }
 
@@ -28955,7 +29022,7 @@ div.tagsinput span.tag a {
 }
 
 .auth form .auth-link {
-  font-size: 0.813rem;
+  font-size: 0.1rem;
 }
 
 .auth form .auth-link:hover {
@@ -29844,7 +29911,7 @@ div.tagsinput span.tag a {
   width: 1rem;
   margin-right: 0;
   display: inline-block;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 100%;
 }
 
@@ -29858,7 +29925,7 @@ div.tagsinput span.tag a {
   width: 1rem;
   margin-right: 0rem;
   display: inline-block;
-  font-size: 0.813rem;
+  font-size: 0.1rem;
   border-radius: 3px;
 }
 

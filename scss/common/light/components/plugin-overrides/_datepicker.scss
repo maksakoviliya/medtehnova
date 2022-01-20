@@ -3,8 +3,8 @@
 .datepicker.datepicker-inline {
 	padding: 0;
 	width: 30%;
-	max-width: 500px;
-	min-width: 250px;
+	max-width:500px;
+	min-width: 150px;
 
 	.datepicker-days {
 		padding: 0;
@@ -17,34 +17,35 @@
 					th {
 						text-align: center;
 						padding: 0.5rem 0;
+						font-family: $type3;
 
 						&.prev {
-							color: $body-color;
-							padding-bottom: 1rem;
-							padding-top: 1rem;
-							background: $white;
+							color: $white;
+							padding-bottom: .2rem;
+							padding-top: .2rem;
+							background: transparent;
 						}
 
 						&.datepicker-switch {
-							color: $body-color;
-							background: $white;
-							padding-bottom: 1rem;
-							padding-top: 1rem;
-							font-size: 1rem;
+							color: $white;
+							background: transparent;
+							padding-bottom: .2rem;
+							padding-top: .2rem;
+							font-size: .75rem;
 							font-weight: 600;
 						}
 
 						&.next {
-							color: $body-color;
-							padding-bottom: 1rem;
-							padding-top: 1rem;
-							background: $white;
+							color: $white;
+							padding-bottom: .2rem;
+							padding-top: .2rem;
+							background: transparent;
 						}
 
 						&.dow {
-							font-family: $type1;
-							color: $body-color;
-							font-size: 0.875rem;
+							color: $gray;
+							text-transform: uppercase;
+							font-size: 0.625rem;
 							font-weight: initial;
 						}
 					}
@@ -53,18 +54,39 @@
 
 			tbody {
 				position: relative;
-				top: 13px;
+				//top: 13px;
 
 				td {
 					text-align: center;
 
 					&.day {
-						font-size: 0.9375rem;
-						padding: 0.5rem 0;
-						color: $body-color;
+						font-size: 0.75rem;
+						color: $white;
+						font-weight: $font-weight-500;
+						position: relative;
+
+						&:before {
+							content: "";
+							width: 22px;
+							height: 22px;
+							background: $success;
+							@include border-radius(100%);
+							margin: auto;
+							vertical-align: middle;
+							position: absolute;
+							top: -2px;
+							z-index: -1;
+							left: 0;
+							right: 0;
+							display: none;
+						}
 
 						&:hover {
-							background: $white;
+							background: transparent;
+							color: $body-color;
+							&:before {
+								display: block;
+							}
 						}
 
 						&.active {
@@ -74,54 +96,27 @@
 							z-index: 1;
 
 							&:before {
-								content: "";
-								width: 28px;
-								height: 28px;
-								background: $success;
-								@include border-radius(4px);
 								display: block;
-								margin: auto;
-								vertical-align: middle;
-								position: absolute;
-								top: 6px;
-								z-index: -1;
-								left: 0;
-								right: 0;
 							}
 						}
 
 						&.today {
-							color: #fff;
+							color: $success;
 							background: transparent;
 							position: relative;
 							z-index: 1;
-
-							&:before {
-								content: "";
-								width: 28px;
-								height: 28px;
-								background: $primary;
-								@include border-radius(4px);
-								box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-								-webkit-box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-								-moz-box-shadow: 3px 3px 6px 0 rgba(147, 127, 201, 0.43);
-								display: block;
-								margin: auto;
-								vertical-align: middle;
-								position: absolute;
-								top: 6px;
-								z-index: -1;
-								left: 0;
-								right: 0;
-							}
 						}
 					}
 
 					&.old.day {
-						color: darken($gray-lightest,4.5%);
+						color: $gray;
+						font-weight: normal;
 					}
 
-					&.new.day {}
+					&.new.day {
+						color: $gray;
+						font-weight: normal;
+					}
 				}
 			}
 		}
@@ -131,7 +126,7 @@
 .datepicker.datepicker-inline {
 	width: 100%;
 	max-width: 100%;
-	min-width: 250px;
+	min-width: 150px;
 
 	thead {
 		tr {
@@ -143,9 +138,13 @@
 				}
 
 				&.datepicker-switch {
-					color: $primary;
+					color: $white;
 					padding-bottom: 0.5rem;
 					padding-top: 0.5rem;
+
+					&:hover {
+						background: #2c2f41;
+					}
 				}
 
 				&.next {

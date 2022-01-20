@@ -1,55 +1,143 @@
 @font-face {
-  font-family: 'Poppins';
-  src: url('../../fonts/poppins/RPoppins-Light.eot');
-  src: url('../../fonts/poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
-      url('../../fonts/poppins/Poppins-Light.woff2') format('woff2'),
-      url('../../fonts/poppins/Poppins-Light.woff') format('woff'),
-      url('../../fonts/poppins/Poppins-Light.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/RRoboto-Light.eot');
+  src: url('../../fonts/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/Roboto/Roboto-Light.woff2') format('woff2'),
+      url('../../fonts/Roboto/Roboto-Light.woff') format('woff'),
+      url('../../fonts/Roboto/Roboto-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../../fonts/poppins/Poppins-Bold.eot');
-  src: url('../../fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
-      url('../../fonts/poppins/Poppins-Bold.woff') format('woff'),
-      url('../../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Bold.eot');
+  src: url('../../fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+      url('../../fonts/Roboto/Roboto-Bold.woff') format('woff'),
+      url('../../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../../fonts/poppins/Poppins-Medium.eot');
-  src: url('../../fonts/poppins/Poppins-Medium?#iefix') format('embedded-opentype'),
-      url('../../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
-      url('../../fonts/poppins/Poppins-Medium.woff') format('woff'),
-      url('../../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Medium.eot');
+  src: url('../../fonts/Roboto/Roboto-Medium?#iefix') format('embedded-opentype'),
+      url('../../fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+      url('../../fonts/Roboto/Roboto-Medium.woff') format('woff'),
+      url('../../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../../fonts/poppins/Poppins-Regular.eot');
-  src: url('../../fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
-      url('../../fonts/poppins/Poppins-Regular.woff') format('woff'),
-      url('../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Regular.eot');
+  src: url('../../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+      url('../../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+      url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../../fonts/poppins/Poppins-Black.eot');
-  src: url('../../fonts/poppins/Poppins-Black.eot?#iefix') format('embedded-opentype'),
-      url('../../fonts/poppins/Poppins-Black.woff2') format('woff2'),
-      url('../../fonts/poppins/RPoppins-Black.woff') format('woff'),
-      url('../../fonts/poppins/Poppins-Black.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Black.eot');
+  src: url('../../fonts/Roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+      url('../../fonts/Roboto/RRoboto-Black.woff') format('woff'),
+      url('../../fonts/Roboto/Roboto-Black.ttf') format('truetype');
   font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans/ROpenSans-Light.eot');
+  src: url('../../fonts/OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/OpenSans/OpenSans-Light.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Light.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans/OpenSans-Bold.eot');
+  src: url('../../fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans/OpenSans-Medium.eot');
+  src: url('../../fonts/OpenSans/OpenSans-Medium?#iefix') format('embedded-opentype'),
+  url('../../fonts/OpenSans/OpenSans-Medium.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Medium.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/Inter-Regular.eot');
+  src: url('../../fonts/Inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Inter/Inter-Regular.woff2') format('woff2'),
+  url('../../fonts/Inter/Inter-Regular.woff') format('woff'),
+  url('../../fonts/Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/RInter-Light.eot');
+  src: url('../../fonts/Inter/Inter-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Inter/Inter-Light.woff2') format('woff2'),
+  url('../../fonts/Inter/Inter-Light.woff') format('woff'),
+  url('../../fonts/Inter/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/Inter-Bold.eot');
+  src: url('../../fonts/Inter/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Inter/Inter-Bold.woff2') format('woff2'),
+  url('../../fonts/Inter/Inter-Bold.woff') format('woff'),
+  url('../../fonts/Inter/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter/Inter-Medium.eot');
+  src: url('../../fonts/Inter/Inter-Medium?#iefix') format('embedded-opentype'),
+  url('../../fonts/Inter/Inter-Medium.woff2') format('woff2'),
+  url('../../fonts/Inter/Inter-Medium.woff') format('woff'),
+  url('../../fonts/Inter/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans/OpenSans-Regular.eot');
+  src: url('../../fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
