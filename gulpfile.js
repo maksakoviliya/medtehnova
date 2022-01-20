@@ -69,7 +69,7 @@ gulp.task('injectPartial', function () {
 gulp.task('injectCommonAssets', function () {
   return gulp.src('./**/*.html')
     .pipe(inject(gulp.src([ 
-        './vendors/mdi/css/materialdesignicons.min.css',
+        // './vendors/mdi/css/materialdesignicons.min.css',
         './vendors/base/vendor.bundle.base.css', 
         './vendors/base/vendor.bundle.base.js',
     ], {read: false}), {name: 'base', relative: true}))
@@ -162,7 +162,8 @@ gulp.task('buildBaseVendorScripts', function() {
 gulp.task('buildBaseVendorStyles', function() {
     return gulp.src([
         './node_modules/perfect-scrollbar/css/perfect-scrollbar.css',
-        './node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css'
+        './node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css',
+        './node_modules/@mdi/font/css/materialdesignicons.min.css'
     ])
       .pipe(concat('vendor.bundle.base.css'))
       .pipe(gulp.dest('./vendors/base'));
