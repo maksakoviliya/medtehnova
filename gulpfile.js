@@ -150,7 +150,9 @@ gulp.task('buildBaseVendorScripts', function() {
         './node_modules/jquery/dist/jquery.min.js', 
         // './node_modules/popper.js/dist/umd/popper.min.js', 
         './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', 
-        './node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js'
+        './node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js',
+        './node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js',
+        './node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js'
     ])
       .pipe(concat('vendor.bundle.base.js'))
       .pipe(gulp.dest('./vendors/base'));
@@ -158,7 +160,10 @@ gulp.task('buildBaseVendorScripts', function() {
 
 /*Building vendor styles needed for basic template rendering*/
 gulp.task('buildBaseVendorStyles', function() {
-    return gulp.src(['./node_modules/perfect-scrollbar/css/perfect-scrollbar.css'])
+    return gulp.src([
+        './node_modules/perfect-scrollbar/css/perfect-scrollbar.css',
+        './node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css'
+    ])
       .pipe(concat('vendor.bundle.base.css'))
       .pipe(gulp.dest('./vendors/base'));
 });
