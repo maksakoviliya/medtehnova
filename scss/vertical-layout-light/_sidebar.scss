@@ -18,6 +18,9 @@
   -ms-box-shadow: $sidebar-box-shadow;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  max-height:calc(100% - #{$navbar-height});
+
   .sidebar-calendar {
     .nav-link {
       display: none !important;
@@ -29,9 +32,6 @@
     flex-direction: column;
     margin-bottom: 15px;
 
-    @media (min-width: 576px) {
-      margin-bottom: 40px;
-    }
     .nav-item {
       @include transition-duration(0.25s);
       transition-property: background;

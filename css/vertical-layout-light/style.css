@@ -29082,6 +29082,8 @@ div.tagsinput span.tag a {
   -ms-box-shadow: 6px 16px 31px -18px #b7bcd1;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  max-height: calc(100% - 63px);
 }
 
 .sidebar .sidebar-calendar .nav-link {
@@ -29093,12 +29095,6 @@ div.tagsinput span.tag a {
   flex-wrap: nowrap;
   flex-direction: column;
   margin-bottom: 15px;
-}
-
-@media (min-width: 576px) {
-  .sidebar .nav {
-    margin-bottom: 40px;
-  }
 }
 
 .sidebar .nav .nav-item {
