@@ -31762,6 +31762,7 @@ div.tagsinput span.tag a {
   background-color: #fff;
   height: 100%;
   left: 0;
+  z-index: 10;
 }
 
 .schedule .schedule-time .schedule-hour {
