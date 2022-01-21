@@ -2,7 +2,6 @@
 .datepicker.datepicker-dropdown,
 .datepicker.datepicker-inline {
 	padding: 0;
-	width: 30%;
 	max-width:500px;
 	min-width: 150px;
 
@@ -121,6 +120,10 @@
 			}
 		}
 	}
+}
+
+.datepicker.datepicker-light {
+	background: #f00;
 }
 
 .datepicker.datepicker-inline {

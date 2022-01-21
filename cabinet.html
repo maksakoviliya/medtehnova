@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Medtehnova</title>
+    <!-- base:css -->
+    <link rel="stylesheet" href="./vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="./vendors/select2/select2.min.css">
+    <link rel="stylesheet" href="./vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="./images/logo.svg"/>
+</head>
+<body class="sidebar-fixed">
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-start navbar-brand-wrapper d-flex align-items-center justify-content-between">
+            <a class="navbar-brand brand-logo" href="index.html">
+                <img src="./images/logo.svg" alt="logo"/>
+                <span>medtehnova</span>
+            </a>
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="./images/logo-mini.svg" alt="logo"/></a>
+            <button class="navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+                <span class="mdi mdi-menu"></span>
+            </button>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+            <div class="d-none d-md-flex flex-column me-auto">
+                <h4 class="mb-1">Расписание кабинеты</h4>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Расписание кабинеты</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">1 этап</li>
+                    </ol>
+                </nav>
+            </div>
+            <a href="home.html" class="d-inline-block btn btn-secondary px-2">Назад</a>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-bs-toggle="offcanvas">
+                <span class="mdi mdi-menu"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+            <ul class="nav">
+                <li class="nav-item mb-4 pe-2">
+                    <div class="sidebar-calendar shadow pb-3">
+                        <a class="nav-link" href="#">
+                            <i class="mdi mdi-calendar menu-icon text-white"></i>
+                        </a>
+                        <div id="datepicker"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-calendar menu-icon"></i>
+                        <span class="menu-title">Расписание кабинеты</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-calendar-edit menu-icon"></i>
+                        <span class="menu-title">Расписание врачи</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-account-group-outline menu-icon"></i>
+                        <span class="menu-title">Клиенты</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                       aria-controls="ui-basic">
+                        <i class="mdi mdi-account-outline menu-icon"></i>
+                        <span class="menu-title">Сотрудники</span>
+                        <i class="menu-arrow"></i>
+                    </a>
+                    <div class="collapse" id="ui-basic">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="pages/ui-features/accordions.html">Accordions</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/badges.html">Badges</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/breadcrumbs.html">Breadcrumbs</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/modals.html">Modals</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/progress.html">Progress
+                                bar</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="pages/ui-features/pagination.html">Pagination</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/tabs.html">Tabs</a></li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="pages/ui-features/typography.html">Typography</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/tooltips.html">Tooltips</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#ui-advanced" aria-expanded="false"
+                       aria-controls="ui-advanced">
+                        <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                        <span class="menu-title">Документы</span>
+                        <i class="menu-arrow"></i>
+                    </a>
+                    <div class="collapse" id="ui-advanced">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/dragula.html">Dragula</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link"
+                                                    href="pages/ui-features/clipboard.html">Clipboard</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/context-menu.html">Context
+                                menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/slider.html">Sliders</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/carousel.html">Carousel</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/colcade.html">Colcade</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/loaders.html">Loaders</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
+                       aria-controls="form-elements">
+                        <i class="mdi mdi-chart-bell-curve menu-icon"></i>
+                        <span class="menu-title">График работы</span>
+                        <i class="menu-arrow"></i>
+                    </a>
+                    <div class="collapse" id="form-elements">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic
+                                Elements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/advanced_elements.html">Advanced
+                                Elements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/validation.html">Validation</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/wizard.html">Wizard</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#editors" aria-expanded="false"
+                       aria-controls="editors">
+                        <i class="mdi mdi-poll menu-icon"></i>
+                        <span class="menu-title">Отчеты</span>
+                        <i class="menu-arrow"></i>
+                    </a>
+                    <div class="collapse" id="editors">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/text_editor.html">Text
+                                editors</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/forms/code_editor.html">Code
+                                editors</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false"
+                       aria-controls="charts">
+                        <i class="mdi mdi-file-document-box-multiple menu-icon"></i>
+                        <span class="menu-title">Справочники</span>
+                        <i class="menu-arrow"></i>
+                    </a>
+                    <div class="collapse" id="charts">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/morris.html">Morris</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/flot-chart.html">Flot</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/google-charts.html">Google
+                                charts</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/sparkline.html">Sparkline js</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/c3.html">C3 charts</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/chartist.html">Chartists</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="pages/charts/justGage.html">JustGage</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-cogs menu-icon"></i>
+                        <span class="menu-title">Настройки</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="mt-auto profile">
+                <div class="profile-image dropdown dropleft card-menu-dropdown">
+                    <img src="https://via.placeholder.com/37x37" alt="image">
+                    <button type="button" class="btn p-0 profile-image-arrow" id="dropdownProfile"
+                            data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                        <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.55911 5.65262L0.296212 1.73715C-0.0852154 1.27943 0.240263 0.584523 0.836072 0.584523L6.61956 0.584523C7.21537 0.584523 7.54085 1.27943 7.15942 1.73715L3.89652 5.65262C3.80873 5.75798 3.64691 5.75798 3.55911 5.65262Z"
+                                  fill="white"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownProfile"
+                         x-placement="left-start">
+                        <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                            <svg width="25" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.8715 22.1509C21.3777 20.7688 20.2897 19.5475 18.7761 18.6765C17.2625 17.8054 15.408 17.3333 13.5002 17.3333C11.5923 17.3333 9.73782 17.8054 8.22423 18.6765C6.71065 19.5475 5.62259 20.7688 5.12881 22.1509"
+                                      stroke="#25378B" stroke-width="2.4" stroke-linecap="round"/>
+                                <circle cx="13.4998" cy="8.66658" r="4.33333" stroke="#25378B" stroke-width="2.4"
+                                        stroke-linecap="round"/>
+                            </svg>
+                            Профиль
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
+                            <svg width="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M8.29289 17.7071C7.90237 17.3166 7.90237 16.6834 8.29289 16.2929L11.5858 13H5C4.44771 13 4 12.5523 4 12C4 11.4477 4.44771 11 5 11H11.5858L8.29289 7.70711C7.90237 7.31658 7.90237 6.68342 8.29289 6.29289C8.68342 5.90237 9.31658 5.90237 9.70711 6.29289L14.7071 11.2929C15.0976 11.6834 15.0976 12.3166 14.7071 12.7071L9.70711 17.7071C9.31658 18.0976 8.68342 18.0976 8.29289 17.7071Z"
+                                      fill="#25378B"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M15 19C15 18.4477 15.4477 18 16 18L17 18C17.5523 18 18 17.5523 18 17L18 7C18 6.44772 17.5523 6 17 6L16 6C15.4477 6 15 5.55229 15 5C15 4.44771 15.4477 4 16 4L17 4C18.6569 4 20 5.34315 20 7L20 17C20 18.6569 18.6569 20 17 20L16 20C15.4477 20 15 19.5523 15 19Z"
+                                      fill="#25378B"/>
+                            </svg>
+                            Выйти
+                        </a>
+                    </div>
+                </div>
+                <div class="profile-name">
+                    <p class="name">
+                        Максим Николаев
+                    </p>
+                    <p class="designation">
+                        Регистратор
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-lg-12 stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-xl">
+                                        <div class="form-group mb-0">
+                                            <label for="dateRange">Выберите период <span class="text-small">(не больше 14 дней)</span></label>
+                                            <input type="text" class="form-control text-center" id="dateRange"  name="daterange" value="01.01.2022 - 14.01.2022" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl">
+                                        <div class="form-group mb-0 mt-4 mt-md-0">
+                                            <label>Выберите специалиста</label>
+                                            <select class="js-example-basic-single w-100">
+                                                <option value="AL">Все</option>
+                                                <option value="WY">Wyoming</option>
+                                                <option value="AM">America</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="RU">Russia</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl">
+                                        <div class="d-flex flex-wrap flex-md-nowrap gap-md-2">
+                                            <button class="d-inline-block w-100 btn btn-secondary px-2 mt-4 text-nowrap">15 мин</button>
+                                            <button class="d-inline-block w-100 btn btn-secondary px-2 mt-4 text-nowrap">30 мин</button>
+                                            <button class="d-inline-block w-100 btn btn-secondary px-2 mt-4 text-nowrap">45 мин</button>
+                                            <button class="d-inline-block w-100 btn btn-secondary px-2 mt-4 text-nowrap">60 мин</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl text-end">
+                                        <button class="d-inline-block btn btn-primary px-5 mt-4 w-100">Записать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:partials/_footer.html -->
+            <div class="footer-wrapper">
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-center text-sm-left d-block d-sm-inline-block">Copyright &copy; 2021 All rights reserved. </span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Designed by: <a
+                                href="https://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. </span>
+                    </div>
+                </footer>
+            </div>
+            <!-- partial -->
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="./vendors/base/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<script src="./vendors/progressbar.js/progressbar.min.js"></script>
+<script src="./vendors/flot/jquery.flot.js"></script>
+<script src="./vendors/flot/jquery.flot.resize.js"></script>
+<script src="./vendors/flot/curvedLines.js"></script>
+<script src="./vendors/chart.js/Chart.min.js"></script>
+<script src="./vendors/moment/moment.min.js"></script>
+<script src="./vendors/daterangepicker/daterangepicker.js"></script>
+<script src="./vendors/select2/select2.min.js"></script>
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="./js/off-canvas.js"></script>
+<script src="./js/hoverable-collapse.js"></script>
+<script src="./js/template.js"></script>
+<script src="./js/settings.js"></script>
+<script src="./js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="./js/dashboard.js"></script>
+<script src="./js/select2.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>
+

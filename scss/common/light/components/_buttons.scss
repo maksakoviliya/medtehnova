@@ -2,8 +2,10 @@
 
 .btn {
   font-size: $btn-font-size;
-  line-height: 1rem;
+  line-height: 14px;
   font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 12px;
   i {
     font-size: $btn-font-size-icon;
     vertical-align: middle

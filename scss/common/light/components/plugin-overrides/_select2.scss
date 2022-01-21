@@ -19,7 +19,8 @@
       @extend .form-control;
     }
     .select2-selection__rendered {
-      line-height: 14px;
+      //line-height: 14px;
+      line-height: 19px;
     }
   }
   .select2-dropdown {
