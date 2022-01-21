@@ -5,10 +5,9 @@
   thead {
     th {
       border-top: 0;
-      border-bottom-width: 1px;
       font-weight: 600;
-      font-size: 0.8125rem;
-      padding: 1rem 0.9375rem;
+      font-size: 12px;
+      padding: 1rem;
       border-bottom: 1px solid $content-bg;
       i {
         margin-left: 0.325rem;
@@ -21,11 +20,11 @@
     line-height: 1;
   }
   td {
-    font-size: $default-font-size;
-    padding: 0.625rem;
-    color: $text-muted;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    color: #111723;
     border-bottom: 1px solid $border-color;
-    font-weight: 500;
+    font-weight: normal;
     a {
       display: inherit;
       i {
@@ -60,6 +59,11 @@
     &:last-child td {
       border-bottom: none;
     }
+  }
+
+  // Highlight border color between thead, tbody and tfoot.
+  > :not(:first-child) {
+    border-top: (1 * $table-border-width) solid $table-group-separator-color;
   }
 }
 .table > :not(:last-child) > :last-child > *, .jsgrid .jsgrid-table > :not(:last-child) > :last-child > * {

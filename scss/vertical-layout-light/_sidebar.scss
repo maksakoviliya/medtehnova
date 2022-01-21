@@ -27,7 +27,11 @@
     overflow: hidden;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+
+    @media (min-width: 576px) {
+      margin-bottom: 40px;
+    }
     .nav-item {
       @include transition-duration(0.25s);
       transition-property: background;
@@ -201,7 +205,12 @@
     }
   .profile {
     padding-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+
+    @media (min-width: 576px) {
+      margin-bottom: 30px;
+    }
+
     .profile-image {
       position: relative;
 

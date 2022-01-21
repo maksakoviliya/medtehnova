@@ -15,3 +15,11 @@
   line-height: 23px;
   margin-bottom: 0;
 }
+
+.view-selector {
+  width: 100%;
+  text-align: left;
+  &:hover {
+    background: #EFF3F7;
+  }
+}

@@ -10403,13 +10403,13 @@ progress {
 
 .table, .jsgrid .jsgrid-table {
   --bs-table-bg: transparent;
-  --bs-table-accent-bg: #edeef2;
+  --bs-table-accent-bg: #ffffff;
   --bs-table-striped-color: #212529;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
   --bs-table-active-color: #212529;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
   --bs-table-hover-color: #212529;
-  --bs-table-hover-bg: #eaeaf1;
+  --bs-table-hover-bg: #f9fafa;
   width: 100%;
   margin-bottom: 1rem;
   color: #1c2c42;
@@ -12282,7 +12282,7 @@ fieldset:disabled .wizard > .actions a,
 
 .btn-sm, .btn-group-sm > .btn, .fc .btn-group-sm > button, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled, .wizard > .actions .btn-group-sm > a, .fc button {
   padding: 0.3125rem 0.75rem;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   border-radius: 0.25rem;
 }
 
@@ -21632,7 +21632,7 @@ code {
 }
 
 .btn.btn-sm, .btn-group-sm > .btn, .fc .btn-group-sm > button, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled, .wizard > .actions .btn-group-sm > a, .fc button, .ajax-upload-dragdrop .btn-sm.ajax-file-upload, .ajax-upload-dragdrop .fc button.ajax-file-upload, .fc .ajax-upload-dragdrop button.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-sm.swal2-styled, .swal2-modal .swal2-buttonswrapper .fc button.swal2-styled, .fc .swal2-modal .swal2-buttonswrapper button.swal2-styled, .wizard > .actions a.btn-sm {
-  font-size: 0.875rem;
+  font-size: 12px;
 }
 
 .btn.btn-sm i, .btn-group-sm > .btn i, .fc .btn-group-sm > button i, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload i, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled i, .wizard > .actions .btn-group-sm > a i, .fc button i, .ajax-upload-dragdrop .btn-sm.ajax-file-upload i, .ajax-upload-dragdrop .fc button.ajax-file-upload i, .fc .ajax-upload-dragdrop button.ajax-file-upload i, .swal2-modal .swal2-buttonswrapper .btn-sm.swal2-styled i, .swal2-modal .swal2-buttonswrapper .fc button.swal2-styled i, .fc .swal2-modal .swal2-buttonswrapper button.swal2-styled i, .wizard > .actions a.btn-sm i {
@@ -22668,6 +22668,7 @@ code {
   margin-top: 4px;
   margin-bottom: 0;
   line-height: 16px;
+  text-align: left;
 }
 
 .card .card-description {
@@ -25190,10 +25191,9 @@ dl li {
 
 .table thead th, .jsgrid .jsgrid-table thead th {
   border-top: 0;
-  border-bottom-width: 1px;
   font-weight: 600;
-  font-size: 0.8125rem;
-  padding: 1rem 0.9375rem;
+  font-size: 12px;
+  padding: 1rem;
   border-bottom: 1px solid #edeef2;
 }
 
@@ -25211,11 +25211,11 @@ dl li {
 
 .table td,
 .jsgrid .jsgrid-table td {
-  font-size: 1rem;
-  padding: 0.625rem;
-  color: #707889;
+  font-size: 12px;
+  padding: .5rem 1rem;
+  color: #111723;
   border-bottom: 1px solid #f6f2f2;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .table td a, .jsgrid .jsgrid-table td a {
@@ -25259,6 +25259,10 @@ dl li {
 
 .table tr:last-child td, .jsgrid .jsgrid-table tr:last-child td {
   border-bottom: none;
+}
+
+.table > :not(:first-child), .jsgrid .jsgrid-table > :not(:first-child) {
+  border-top: 1px solid currentColor;
 }
 
 .table > :not(:last-child) > :last-child > *, .jsgrid .jsgrid-table > :not(:last-child) > :last-child > *, .jsgrid .jsgrid-table > :not(:last-child) > :last-child > * {

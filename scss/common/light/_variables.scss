@@ -149,7 +149,7 @@ $btn-padding-x-lg:    3rem;
 
 $btn-font-size:       0.813rem;
 $btn-font-size-xs:    .625rem;
-$btn-font-size-sm:    0.875rem;
+$btn-font-size-sm:    12px;
 $btn-font-size-lg:    .875rem;
 $btn-font-size-icon:  1.25rem;
 
@@ -206,9 +206,10 @@ $dropdown-link-hover-bg: #eaeaf1;
 ////////  DROPDOWNS ///////
 
 //////// TABLES ////////
+//$table-bg: #f00;
 $table-color: $body-color;
-$table-accent-bg: $content-bg;
-$table-hover-bg:  #eaeaf1;
+$table-accent-bg: $white;
+$table-hover-bg: #f9fafa;
 $table-cell-padding: 1.25rem .9375rem;
 $table-border-color: $border-color;
 
