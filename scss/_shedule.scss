@@ -37,11 +37,99 @@
     }
   }
 
-  .schedule-days {
+  .schedule-days,
+  .schedule-cabinets{
     display: flex;
     width: 100%;
-    gap: 5px;
 
+    .schedule-cabinet {
+      width: 100%;
+      min-width: calc(100% - 42px);
+      @media (min-width: 768px) {
+        min-width: 115px;
+      }
+
+      &:first-child {
+        .cabinet-title {
+          border-left: 1px solid #E7EAED;
+        }
+      }
+      &:last-child {
+        .cabinet-title {
+          border-right: 1px solid #E7EAED;
+        }
+      }
+
+      .cabinet-title {
+        padding: 14px 12px;
+        background-color: $white;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        border-bottom: 1px solid #E7EAED;
+      }
+
+      .cabinet-day {
+        width: 100%;
+        display: flex;
+
+        .day-owners{
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-auto-rows: 12px;
+        }
+        .day-owner {
+          width: 20px;
+          text-align: center;
+          font-size: 8px;
+          color: #25378B;
+          line-height: 20px;
+          white-space: nowrap;
+          writing-mode: vertical-rl;
+        }
+      }
+
+      .day-hours {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 12px;
+        position: relative;
+
+        span {
+          font-size: 7px;
+          font-family: $type1;
+          text-align: center;
+          color: #fff;
+          white-space: nowrap;
+
+          &.disabled {
+            $color: #C2C9D1;
+            $transparent: rgba(0, 0, 0, 0);
+
+            background: linear-gradient(-45deg,
+                    $transparent 49.9%,
+                    $color 49.9%, $color 60%,
+                    $transparent 60%
+            ),
+            linear-gradient(-45deg,
+                            $color 10%,
+                            $transparent 10%
+            );
+            background-color: #E7EAED;
+            background-size: 8px 8px;
+          }
+
+          &:nth-child(n+1) {
+            border-bottom: 1px solid #E7EAED;
+          }
+
+          &:nth-child(2n) {
+            border-bottom: 1px solid #A2A3B7;
+          }
+        }
+      }
+    }
     .schedule-day {
       width: 100%;
       min-width: calc(100% - 42px);
@@ -98,5 +186,11 @@
         }
       }
     }
+  }
+
+  .schedule-cabinets {
+    //display: flex;
+    //width: 100%;
+    //gap: 5px;
   }
 }
