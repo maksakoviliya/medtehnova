@@ -31737,6 +31737,13 @@ div.tagsinput span.tag a {
   background: #EFF3F7;
 }
 
+.minute-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 8px;
+  margin-top: 20px;
+}
+
 .schedule {
   position: relative;
 }
