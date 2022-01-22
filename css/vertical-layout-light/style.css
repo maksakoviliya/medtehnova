@@ -31777,6 +31777,10 @@ div.tagsinput span.tag a {
   grid-column-start: 2;
 }
 
+.schedule .schedule-days {
+  gap: 5px;
+}
+
 .schedule .schedule-days,
 .schedule .schedule-cabinets {
   display: flex;
